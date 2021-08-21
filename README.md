@@ -4,8 +4,12 @@
 
 ## Contributors 
 **Scrimba Red Team:**
+- Ash
+- Endzo Useri
+- Greg Pendleton
+- Jessica
 - Nithish Kumar
-- vm799 
+- Vaishali Mehmi
 - [Vlad Silagy](https://github.com/vladsilagy)
 - [Yana An](https://github.com/yana-an-dev)
 
