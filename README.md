@@ -1,5 +1,6 @@
-# 🟥Red Team Project: A Chef's Personal Website 
-👺**Chef Red Devil** brings you spice world🌶
+# Scrimba Team Challenge: A Chef's Personal Website 
+
+🟥 Red Team Project : 👺 **Chef Red Devil** brings you spice world 🌶
 
 ## Contributors 
 **Scrimba Red Team:**
@@ -11,6 +12,8 @@
 
 ## Challenge Brief 
 > A local chef has asked us to create for them a personal website that showcases their craft, energy and passion for food! 
+> They are a private chef, so they are catering (pun intended 😉) to people who will pay them $$$ to come into their home and cook them a 5-star meal.
+> This particular chef likes to incorporate music into client experience, so the chef will play their personal favourite playlist while cooking.
 
 ## Objectives
 
