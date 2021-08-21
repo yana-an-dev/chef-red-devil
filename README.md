@@ -1,7 +1,5 @@
-# chef-red-devil
-
-## 🎈Red Team Project🎈: A Chef's Personal Website 
-### 👹Chef Red Devil 🌶brings you spice world🌶
+# 🎈Red Team Project🎈: A Chef's Personal Website 
+> 👹Chef Red Devil 🌶brings you spice world🌶
 
 ## Challenge Brief 
 > A local chef has asked you to create for them a personal website that showcases their craft, energy and passion for food! 
