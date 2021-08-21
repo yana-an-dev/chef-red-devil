@@ -17,6 +17,8 @@ Scrimba Red Team
 - Vlad Silagy
 - Yana An
 
-
-[Notion]: (https://sore-cup-eae.notion.site/A-Chef-s-Personal-Website-c22cccecdd734af7bee576c8bdfe2c24)
-[Figma Board]: (https://www.figma.com/file/SbCMa6CsrHBDQAt3ej4xLg/Challenge-1?node-id=0%3A1)
+## Links 
+- Notion Project page for team project details
+     https://sore-cup-eae.notion.site/A-Chef-s-Personal-Website-c22cccecdd734af7bee576c8bdfe2c24
+- Figma board for design idea and brainstorming
+    https://www.figma.com/file/SbCMa6CsrHBDQAt3ej4xLg/Challenge-1?node-id=0%3A1
