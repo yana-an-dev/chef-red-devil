@@ -1,5 +1,5 @@
 :root{
-/* Theme Colors */
+/* Theme Color */
 --color-black: #070607;
 --color-red: 
 --color-deep-orange:
@@ -20,7 +20,7 @@
   --weight-semi-bold: 600;
   --weight-regular: 400;
 
-/*animation*/
+/* animation */
     --animation-duration: 300ms;
 }
 
