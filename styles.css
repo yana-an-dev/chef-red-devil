@@ -24,25 +24,30 @@
     --animation-duration: 300ms;
 }
 
-
-* {
-    box-sizing: border-box;
-  }
-
-body{
-    margin: 0;
-    font-family: ???;
-
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
 }
 
-a{
+html {
+  font-size: 62.5%; /* 10/16 = .625 = 62.5% || so now 1rem = 10px (for easier calculation) */
+}
+
+body {
+  box-sizing: border-box;
+  font-size: 1.6rem;
+}
+
+a {
     text-decoration: none;
 }
 
 ul {
     list-style: none;
-    padding-left: 0px;
-  }
+}
 
 
   /* Typography */
@@ -52,23 +57,25 @@ h1 {
     font-weight: var(--weight-bold);
     color: var(--color-black);
     margin: 16px 0px;
-  }
-  h2 {
+}
+
+h2 {
     font-size: var(--font-medium);
     font-weight: var(--weight-semi-bold);
     color: var(--color-black);
     margin: 8px 0px;
-  }
-  h3 {
+}
+
+h3 {
     font-size: var(--font-small);
     font-weight: var(--weight-regular);
     color: var(--color-black);
     margin: 8px 0px;
-  }
-  p {
+}
+
+p {
     font-size: var(--font-small);
     font-weight: var(--weight-regular);
     color: var(--color-black);
     margin: 4px 0px;
-  }
-  
+}

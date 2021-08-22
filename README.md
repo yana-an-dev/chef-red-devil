@@ -47,4 +47,4 @@ The site must include the following sections, though the order is up to your tea
 
 ## Links 
 - [Notion Project page for team project details](https://sore-cup-eae.notion.site/A-Chef-s-Personal-Website-c22cccecdd734af7bee576c8bdfe2c24)
-- [Figma board for design idea and brainstorming](https://www.figma.com/file/SbCMa6CsrHBDQAt3ej4xLg/Challenge-1?node-id=0%3A1)
+- [Trello board](https://trello.com/b/4tq7614W/red-team)
