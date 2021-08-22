@@ -1,6 +1,74 @@
-html{
+:root{
+/* Theme Colors */
+--color-black: #070607;
+--color-red: 
+--color-deep-orange:
+--color-dark-reds:
+--color-white:
+
+
+
+/* Font Size */
+--font-large: 48px;
+--font-medium: 28px;
+--font-regular: 24px;
+--font-small: 18px;
+--font-micro: 14px;
+
+/* Font Weight */
+  --weight-bold: 700;
+  --weight-semi-bold: 600;
+  --weight-regular: 400;
+
+/*animation*/
+    --animation-duration: 300ms;
+}
+
+
+* {
+    box-sizing: border-box;
+  }
+
+body{
+    margin: 0;
+    font-family: ???;
 
 }
-body{
-    
+
+a{
+    text-decoration: none;
 }
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+
+  /* Typography */
+
+h1 {
+    font-size: var(--font-large);
+    font-weight: var(--weight-bold);
+    color: var(--color-black);
+    margin: 16px 0px;
+  }
+  h2 {
+    font-size: var(--font-medium);
+    font-weight: var(--weight-semi-bold);
+    color: var(--color-black);
+    margin: 8px 0px;
+  }
+  h3 {
+    font-size: var(--font-small);
+    font-weight: var(--weight-regular);
+    color: var(--color-black);
+    margin: 8px 0px;
+  }
+  p {
+    font-size: var(--font-small);
+    font-weight: var(--weight-regular);
+    color: var(--color-black);
+    margin: 4px 0px;
+  }
+  
