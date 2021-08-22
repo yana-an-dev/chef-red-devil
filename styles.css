@@ -1,19 +1,20 @@
 :root{
 /* Theme Color */
---color-black: #070607;
+--color-black: #323232; /*background color from figma page*/
 --color-red: 
 --color-deep-orange:
+--color-orange:
 --color-dark-reds:
 --color-white:
 
 
 
 /* Font Size */
---font-large: 48px;
---font-medium: 28px;
---font-regular: 24px;
---font-small: 18px;
---font-micro: 14px;
+--font-large: 2rem;
+--font-medium: 1.25rem;
+--font-regular: 1rem; /*10px*/
+--font-small: 0.9rem;
+--font-micro: 0.7rem;
 
 /* Font Weight */
   --weight-bold: 700;
