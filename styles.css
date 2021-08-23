@@ -1,18 +1,18 @@
 :root{
 /* Theme Color */
 --color-black: #323232; /*background color from figma page*/
---color-red: 
---color-deep-orange:
---color-orange:
---color-dark-reds:
---color-white:
+--color-red: red;
+--color-deep-orange: orange;
+--color-orange: orange;
+--color-dark-reds: red;
+--color-white: #fff;
 
 
 
 /* Font Size */
---font-large: 2rem;
---font-medium: 1.25rem;
---font-regular: 1rem; /*10px*/
+--font-large: 4rem;
+--font-medium: 1.8rem;
+--font-regular: 1.5rem; /*10px*/
 --font-small: 0.9rem;
 --font-micro: 0.7rem;
 
@@ -41,6 +41,7 @@ body {
   box-sizing: border-box;
   font-size: 1.6rem;
   line-height: 1.56;
+  background-color: var(--color-black);
 }
 
 a {
@@ -57,28 +58,28 @@ ul {
 h1 {
     font-size: var(--font-large);
     font-weight: var(--weight-bold);
-    color: var(--color-black);
+    color: var(--color-white);
     margin: 16px 0px;
 }
 
 h2 {
     font-size: var(--font-medium);
     font-weight: var(--weight-semi-bold);
-    color: var(--color-black);
+    color: var(--color-white);
     margin: 8px 0px;
 }
 
 h3 {
     font-size: var(--font-small);
     font-weight: var(--weight-regular);
-    color: var(--color-black);
+    color: var(--color-white);
     margin: 8px 0px;
 }
 
 p {
-    font-size: var(--font-small);
+    font-size: var(--font-medium);
     font-weight: var(--weight-regular);
-    color: var(--color-black);
+    color: var(--color-white);
     margin: 4px 0px;
 }
 
@@ -87,7 +88,8 @@ p {
 
 .header {
   height: 90vh;
-  background-color: #e2e2dc;
+  background-color: var(--color-black);
+  color: var(--color-white);
   display: flex;
   justify-content: space-between;
   gap: 10rem;
@@ -151,6 +153,12 @@ p {
   min-width: auto;
   max-width: 27rem;
   text-align: right;
+  margin-bottom: 1.5rem;
+  
+}
+.chat--chef p{
+  font-size: var(--font-medium);
+  color: var(--color-black)
 }
 
 .chat--client {
@@ -163,11 +171,36 @@ p {
   text-align: left;
   align-self: flex-start;
   animation: popup .2s;
+  margin-bottom: 1.5rem;
+}
+.chat--client p{
+  font-size: var(--font-medium);
+  color: var(--color-black);
+}
+#navbar {
+  background: var(--color-black);
+  position: fixed;
+  display: flex;
+  background-color: var(--color-black);
+  align-items: center;
+  color: var(--color-black);
+  padding: 8px;
+  width: 100%;
+  z-index: 1;
 }
 
-#navbar {
-  background: chocolate;
-  display: block;
+.navbar__logo{
+  color: white;
+  font-size: var(--font-medium);
+  width: 40%;
+  padding-left: 1rem;
+}
+
+.navbar__menu{
+  display: flex;
+  color:var(--color-white);
+  justify-content: space-between;
+  width: 50%;
 }
 
 @keyframes popup {
