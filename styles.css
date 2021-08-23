@@ -41,7 +41,7 @@ html {
 body {
   box-sizing: border-box;
   font-size: 1.6rem;
-  font-family: 'Kaisei Decol', serif;
+  font-family: 'Red Hat Display', sans-serif;
   line-height: 1.56;
   background-color: var(--color-black);
 }
