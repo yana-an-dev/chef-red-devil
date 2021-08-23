@@ -149,6 +149,7 @@ p {
   animation: popup .2s;
   min-width: auto;
   max-width: 27rem;
+  text-align: right;
 }
 
 .chat--client {
@@ -158,6 +159,7 @@ p {
   gap: 1rem;
   padding: .5rem .8rem;
   border-radius: 15px;
+  text-align: left;
   align-self: flex-start;
   animation: popup .2s;
 }
