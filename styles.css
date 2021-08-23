@@ -2,12 +2,10 @@
 /* Theme Color */
 --color-black: #323232; /*background color from figma page*/
 --color-grey:#adadad;
---color-red: red;
---color-deep-orange: orange;
---color-orange: #f65e08;
---color-dark-reds: red;
+--color-red-primary: #e73732;
+--color-orange-secondary: #ef5e36;
+--color-peru-button-background: #d97e4a;
 --color-white: #fff;
-
 
 
 /* Font Size */
