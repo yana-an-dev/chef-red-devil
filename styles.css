@@ -1,6 +1,7 @@
 :root{
 /* Theme Color */
 --color-black: #323232; /*background color from figma page*/
+--color-grey:#adadad;
 --color-red: red;
 --color-deep-orange: orange;
 --color-orange: #f65e08;
@@ -213,4 +214,31 @@ p {
   100% {
       transform: scale(1);
   }
+}
+
+/* Menu page */
+#menu-detail{
+  
+}
+.our-menus{
+  color: var(--color-orange);
+}
+section #menu_one{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+#menu__one{
+  background-color: orange;
+}
+#menu__two{}
+#menu__three{
+  background-color: orange;
+}
+
+.playlists{
+  display: flex;
+  justify-content: center;
 }
