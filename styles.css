@@ -3,7 +3,7 @@
 --color-black: #323232; /*background color from figma page*/
 --color-red: red;
 --color-deep-orange: orange;
---color-orange: orange;
+--color-orange: #f65e08;
 --color-dark-reds: red;
 --color-white: #fff;
 
@@ -40,6 +40,7 @@ html {
 body {
   box-sizing: border-box;
   font-size: 1.6rem;
+  font-family: 'Kaisei Decol', serif;
   line-height: 1.56;
   background-color: var(--color-black);
 }
@@ -183,14 +184,13 @@ p {
   display: flex;
   background-color: var(--color-black);
   align-items: center;
-  color: var(--color-black);
   padding: 8px;
   width: 100%;
   z-index: 1;
 }
 
 .navbar__logo{
-  color: white;
+  color: var(--color-orange);
   font-size: var(--font-medium);
   width: 40%;
   padding-left: 1rem;
@@ -198,7 +198,7 @@ p {
 
 .navbar__menu{
   display: flex;
-  color:var(--color-white);
+  color:var(--color-orange);
   justify-content: space-between;
   width: 50%;
 }
