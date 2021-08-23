@@ -80,3 +80,96 @@ p {
     color: var(--color-black);
     margin: 4px 0px;
 }
+
+/* HEADER */
+
+
+.header {
+  height: 90vh;
+  background-color: #e2e2dc;
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  padding: 5rem;
+}
+
+.header__description {
+  margin: 1.5rem 0;
+}
+
+.header__illustration {
+  height: auto;
+  max-width: 100%;
+}
+
+.header__chats {
+  padding-top: 8rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+.header__text {
+  flex: 2;
+}
+
+.header__picture {
+  flex: 1;
+}
+
+.header__cta {
+  display: inline-block;
+  margin-top: 1rem;
+  background: #d8741d;
+  color: #fff;
+  padding: .5rem 1.4rem;
+  font-size: 2rem;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.chat__avatar {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.chat--chef {
+  background-color: #c9cacc;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 1rem;
+  padding: .5rem .8rem;
+  border-radius: 15px;
+  align-self: flex-end;
+  animation: popup .2s;
+  min-width: auto;
+  max-width: 27rem;
+}
+
+.chat--client {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: .5rem .8rem;
+  border-radius: 15px;
+  align-self: flex-start;
+  animation: popup .2s;
+}
+
+@keyframes popup {
+  0% {
+      transform: scale(1);
+  }
+  90% {
+      transform: scale(1.056);
+  }
+  100% {
+      transform: scale(1);
+  }
+}
