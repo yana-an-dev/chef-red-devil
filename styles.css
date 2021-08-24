@@ -240,3 +240,13 @@ section #menu_one{
   display: flex;
   justify-content: center;
 }
+
+.footer {
+  height: 90vh;
+  background-color: var(--color-black);
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  gap: 10rem;
+  padding: 5rem;
+}
