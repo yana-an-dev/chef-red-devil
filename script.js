@@ -1,6 +1,6 @@
 "use strict"
 // Selectors
-const chats = document.querySelector('.header__chats')
+const chats = document.querySelector('.chatbubble__chats')
 
 window.addEventListener('load', () => {
     setTimeout(() => (client1()), 1000)

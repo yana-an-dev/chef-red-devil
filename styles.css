@@ -6,10 +6,10 @@
 --color-orange-secondary: #ef5e36;
 --color-peru-button-background: #d97e4a;
 --color-white: #fff;
-
+--color-deep-black: black;
 
 /* Font Size */
---font-large: 4rem;
+--font-large: 2.5rem;
 --font-medium: 1.8rem;
 --font-regular: 1.5rem; /*10px*/
 --font-small: 0.9rem;
@@ -41,7 +41,7 @@ body {
   font-size: 1.6rem;
   font-family: 'Red Hat Display', sans-serif;
   line-height: 1.56;
-  background-color: var(--color-black);
+  background-color: var(--color-deep-black);
 }
 
 a {
@@ -83,10 +83,49 @@ p {
     margin: 4px 0px;
 }
 
-/* HEADER */
+/* Header */
+
+#header{
+  margin-top: 0;
+  background-image: url(./assets/BG_header.png);
+  background-color: black;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.header__text{
+ color: var(--color-white);
+ font-size: var(--font-large);
+ text-align: center;
+ padding-top: 45rem;
+
+}
+.header__text--orange{
+  color: var(--color-orange-secondary);
+  font-weight: var(--weight-bold);
+  font-size: var(--font-large);
+}
+.header__text--red{
+  color: var(--color-red-primary);
+  font-weight: var(--weight-bold);
+  font-size: var(--font-large);
+}
+
+/* Main Buttons */
+
+#main-buttons{
+  background-color: black;
+  height: 5rem;
+}
 
 
-.header {
+/* CHAT BUBBLE */
+
+
+.chatbubble {
   height: 90vh;
   background-color: var(--color-black);
   color: var(--color-white);
@@ -96,16 +135,16 @@ p {
   padding: 5rem;
 }
 
-.header__description {
+.chatbubble__description {
   margin: 1.5rem 0;
 }
 
-.header__illustration {
+.chatbubble__illustration {
   height: auto;
   max-width: 100%;
 }
 
-.header__chats {
+.chatbubble__chats {
   padding-top: 8rem;
   display: flex;
   align-items: flex-start;
@@ -114,15 +153,15 @@ p {
   width: 100%;
 }
 
-.header__text {
+.chatbubble__text {
   flex: 2;
 }
 
-.header__picture {
+.chatbubble__picture {
   flex: 1;
 }
 
-.header__cta {
+.chatbubble__cta {
   display: inline-block;
   margin-top: 1rem;
   background: #d8741d;
@@ -178,6 +217,7 @@ p {
   color: var(--color-black);
 }
 #navbar {
+  display: none;
   background: var(--color-black);
   position: fixed;
   display: flex;
