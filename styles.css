@@ -252,3 +252,51 @@ section #menu_one{
   gap: 10rem;
   padding: 5rem;
 }
+
+
+#menus{
+  background-color: var(--color-grey);
+  text-align: center;
+} 
+#menus h1{
+  padding: 1rem;
+}
+.menus__container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+  padding: 3em;
+  text-align: center;
+}
+.menu__one{
+  background-color: orangered;
+  padding: 3rem;
+  margin: 1rem;
+}
+
+.menu__two{
+  background-color: orangered;
+  padding: 3rem;
+  margin: 1rem;
+}
+
+.menu__three{
+  background-color: orangered;
+  padding: 3rem;
+  margin: 1rem;
+
+}
+
+.menu__detail__container{
+  background-color: var(--color-peru-button-background);
+  padding: 3rem;
+}
+
+#booking h1{
+  text-align: center;
+}
+.booking__container{
+  display: flex;
+  justify-content: center;
+  margin: 5rem;
+}
