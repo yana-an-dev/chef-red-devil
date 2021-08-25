@@ -238,6 +238,7 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
   align-self: flex-start;
   animation: popup .2s;
   margin-bottom: 1.5rem;
+  max-width: 41rem;
 }
 .chat--client p{
   font-size: var(--font-medium);
