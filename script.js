@@ -62,3 +62,5 @@ function client2() {
     div.appendChild(p)
     chats.appendChild(div)
 }
+
+

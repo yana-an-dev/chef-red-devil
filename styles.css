@@ -113,10 +113,10 @@ p {
 .header__text{
  color: var(--color-white);
  font-size: var(--font-large);
+ padding-top: 50rem;
  text-align: center;
- padding-top: 45rem;
-
 }
+
 .header__text--orange{
   color: var(--color-orange-secondary);
   font-weight: var(--weight-bold);
