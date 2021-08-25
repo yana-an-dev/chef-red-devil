@@ -313,13 +313,25 @@ section #menu_one{
 
 .footer {
 height: 8rem;
- justify-content: space-between;
+ justify-content: space-around;
  display: flex;
  gap: 10rem;
  padding: 5rem;
  color: var(--color-white);
 }
 
+.footer-btn {
+  border: none;
+  border-radius: 10px;
+  padding: 20px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  background-color: #2B2B2B;
+}
 
 #menus{
   background-color: var(--color-grey);
