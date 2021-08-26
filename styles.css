@@ -13,7 +13,7 @@
 --font-large: 2.5rem;
 --font-medium: 1.8rem;
 --font-regular: 1.5rem; /*10px*/
---font-small: 0.9rem;
+--font-small: 1.3rem;
 --font-micro: 0.7rem;
 
 /* Font Weight */
@@ -302,8 +302,74 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
       transform: scale(1);
   }
 }
+/* testimonials */
 
-/* Menu page */
+#testimonials{
+  height: 50vh;
+  margin-top: 5em;
+}
+.testimonials__title{
+  font-size: var(--font-large);
+  border-bottom: 2px solid var(--color-orange-secondary);
+  text-align: center;
+  display: block;
+
+}
+
+.testimonials__container{
+  display: flex;
+  justify-content: space-around;
+  padding: 1em 7em;
+}
+.testimonial{
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center;
+  align-content: center; */
+  text-align: center;
+  background-color: var(--color-red-dark);
+  margin: 1rem;
+  padding: 2em 3.5em;
+
+
+}
+.testimonial__client{
+  font-size: var(--font-small);
+}
+.testimonial__img{
+  width: 9rem;
+  border-radius: 50%;
+  align-self: center;
+  margin-bottom: 1rem;
+  
+}
+/* booking */
+
+#booking h1{
+  text-align: center;
+}
+.booking_btn{
+  align-content: center;
+  align-self: center;
+  margin: 5rem;
+}
+.booking__title{
+  font-size: var(--font-large);
+  border-bottom: 2px solid var(--color-orange-secondary);
+  text-align: center;
+  display: block;
+
+}
+
+.booking__container{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10rem;
+}
+
+
+
+/* Menu*/
 #menu-detail{
   
 }
@@ -355,7 +421,6 @@ height: 8rem;
 }
 
 #menus{
-  background-color: var(--color-grey);
   text-align: center;
 } 
 #menus h1{
@@ -369,36 +434,27 @@ height: 8rem;
   text-align: center;
 }
 .menu__one{
-  background-color: orangered;
+  background-color: var(--color-black);
   padding: 3rem;
   margin: 1rem;
 }
 
 .menu__two{
-  background-color: orangered;
+  background-color: var(--color-black);
   padding: 3rem;
   margin: 1rem;
 }
 
 .menu__three{
-  background-color: orangered;
+  background-color: var(--color-black);
   padding: 3rem;
   margin: 1rem;
 
 }
 
 .menu__detail__container{
-  background-color: var(--color-peru-button-background);
-  padding: 3rem;
-}
 
-#booking h1{
-  text-align: center;
-}
-.booking__container{
-  display: flex;
-  justify-content: center;
-  margin: 5rem;
+  padding: 3rem;
 }
 
 
