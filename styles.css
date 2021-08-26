@@ -292,8 +292,8 @@ section #menu_one{
 .playlists{
   display: flex;
   justify-content: center;
-}
-
+  background-color: black;}
+.playlist_container{background-color:black;} 
 /* FOOTER */
 
 .footer {
