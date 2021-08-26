@@ -3,6 +3,7 @@
 --color-black: #323232; /*background color from figma page*/
 --color-grey:#adadad;
 --color-red-primary: #e73732;
+--color-red-dark: #491c03;
 --color-orange-secondary: #ef5e36;
 --color-peru-button-background: #d97e4a;
 --color-white: #fff;
@@ -97,6 +98,16 @@ p {
     margin: 4px 0px;
 }
 
+button{
+  background-color: var(--color-orange-secondary);
+  color: var(--color-white);
+  font-size: 2rem;
+  padding: 2rem 4rem;
+  border: none;
+  font-family: 'Red Hat Display', sans-serif;
+  cursor: pointer;
+}
+
 /* Header */
 
 #header{
@@ -131,10 +142,20 @@ p {
 /* Main Buttons */
 
 #main-buttons{
-  background-color: black;
-  height: 5rem;
+  height: 10em;
 }
-
+.main-buttons__container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+.main-buttons{
+  color: var(--color-white);
+  background-color: var(--color-red-dark);
+  margin: 2rem 1rem;
+  cursor: pointer;
+}
 
 /* CHAT BUBBLE */
 
@@ -379,3 +400,5 @@ height: 8rem;
   justify-content: center;
   margin: 5rem;
 }
+
+
