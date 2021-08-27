@@ -1,4 +1,66 @@
 body{
     margin: 0;
+    background-color: black;
 }
 
+
+
+.mystory__hero__container{
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    height: 400px;
+    max-width: 900px;
+}
+
+.mystory__hero__image{
+    border:2px solid red;
+}
+
+.mystory__hero__text{
+    position: absolute;
+    top: 100px;
+    right: 0;
+    width: 150px;
+    height: 50px;
+}
+
+section{
+    max-width: 900px;
+    margin:0 auto;
+}
+
+.mystory__prior__experience__container{
+    max-width: 900px;
+    background-color: rgba(169, 169, 169, 0.288);
+    padding: 0 10px;
+}
+
+
+/* typography */
+
+h1,h2,h3,p{
+    color: white;
+}
+h1,h2,h3{
+    font-family: 'Nunito', sans-serif;;
+}
+
+h1{
+    font-size: 30px;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+.date{
+    font-family: 'Nunito', sans-serif;
+    font-weight: 200;
+    margin-top: 30px;
+    /* margin-bottom: 10px; */
+}
