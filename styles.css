@@ -458,3 +458,130 @@ height: 8rem;
 }
 
 
+/* Pricing */
+
+.pricing {
+  margin-top: 7rem;
+}
+
+.pricing__cards {
+  max-width: 100rem;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20ch, 1fr));
+  gap: 4rem;
+}
+
+.pricing__card {
+  background: #fff;
+  border-radius: 3px;
+  text-align: center;
+  padding: 2rem;
+  color: rgb(36, 34, 34);
+  position: relative;
+}
+
+.pricing__card--2 {
+  transform: scale(1.1);
+  background: #eecdb6;
+
+}
+
+.card__package-name {
+  color: var(--color-orange-secondary);
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.card__price {
+  color: #2B2B2B;
+  font-size: 2.5rem;
+}
+
+.card__price > span {
+  font-size: 5rem;
+  font-weight: 900;
+}
+
+.features {
+  margin-top: 2rem;
+}
+
+.feature__name {
+  display: flex;
+  gap: 1rem;
+}
+
+.feature__name:not(:last-child) {
+  margin-bottom: 1rem;
+}
+
+.feature__name > svg {
+  color: var(--color-orange-secondary);
+  height: 3rem;
+}
+
+.pricing__cta {
+  all: unset;
+  background: var(--color-orange-secondary);
+  color: #fff;
+  padding: 1rem 3rem;
+  margin-top: 2rem;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.ribbon {
+  position: absolute;
+  top: -.5rem;
+  right: -.5rem; 
+  z-index: 1;
+  overflow: hidden;
+  width: 7.5rem; 
+  height: 7.5rem;
+  text-align: right;
+}
+
+.ribbon span {
+  font-size: 1.1rem;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2rem;
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  width: 10rem;
+  display: block;
+  background: linear-gradient(#EF5E36 0%, #e73732 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 1.9rem; 
+  right: -2.1rem;
+}
+
+.ribbon span::before {
+  content: "";
+  position: absolute; 
+  top: 100%;
+  left: 0; 
+  z-index: -1;
+  border-left: 3px solid #e73732;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #e73732;
+}
+
+.ribbon span::after {
+  content: "";
+  position: absolute; 
+  top: 100%;
+  right: 0; 
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #e73732;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #e73732;
+}
