@@ -43,7 +43,7 @@ body {
   font-size: 1.6rem;
   font-family: "Red Hat Display", sans-serif;
   line-height: 1.56;
-  background-color: var(--color-deep-black);
+  background-color: var(--color-black);
   height: 100%; /*for footer positioning */
 }
 
@@ -111,13 +111,14 @@ button {
 
 #header {
   margin-top: 0;
-  background-image: url(./assets/BG_header.png);
   background-color: black;
+  background-image: url(./assets/BG_header.png);
+  
   height: 90vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  max-width: 1000px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 .header__text {
@@ -160,6 +161,8 @@ button {
 
 .chatbubble {
   min-height: 60rem;
+  max-width: 1200px;
+  margin: 0 auto;
   color: var(--color-white);
   display: flex;
   justify-content: space-between;
@@ -190,7 +193,7 @@ button {
   align-items: flex-start;
   flex-direction: column;
   height: 100%;
-  width: 100%;
+  width: 80%;
 }
 
 .chatbubble__text {
@@ -202,8 +205,8 @@ button {
   flex: 1;
   display: grid;
   place-items: center;
-  background: rgb(199, 94, 23);
-  padding: 1rem;
+  /* background: rgb(199, 94, 23);
+  padding: 0.1rem; */
   border-radius: 10px;
 }
 
@@ -213,7 +216,7 @@ button {
   background: #d8741d;
   color: #fff;
   padding: 0.5rem 1.4rem;
-  font-size: 2rem;
+  font-size: var(--font-regular)
   text-decoration: none;
   border-radius: 4px;
 }
@@ -241,7 +244,7 @@ button {
   margin-bottom: 1.5rem;
 }
 .chat--chef p {
-  font-size: var(--font-medium);
+  font-size: var(--font-regular);
   color: var(--color-black);
 }
 
@@ -259,9 +262,21 @@ button {
   max-width: 41rem;
 }
 .chat--client p {
-  font-size: var(--font-medium);
+  font-size: var(--font-regular);
   color: var(--color-black);
 }
+@keyframes popup {
+  0% {
+    transform: scale(1);
+  }
+  90% {
+    transform: scale(1.056);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
 #navbar {
   display: none;
   background: var(--color-black);
@@ -288,44 +303,69 @@ button {
   width: 50%;
 }
 
-@keyframes popup {
-  0% {
-    transform: scale(1);
-  }
-  90% {
-    transform: scale(1.056);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
+
 /* testimonials */
 
 #testimonials {
-  height: 50vh;
-  margin-top: 5em;
+  
+  margin-top: 7em;
 }
 .testimonials__title {
+  position: relative;
   font-size: var(--font-large);
-  border-bottom: 2px solid var(--color-orange-secondary);
   text-align: center;
-  display: block;
+}
+
+.testimonials__title:after {
+    position: absolute;
+    content: '';
+    height: 3px;
+    bottom: 1px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 35%;
+    max-width: 500px;
+    min-width: 350px;
+    background: var(--color-orange-secondary);
 }
 
 .testimonials__container {
   display: flex;
   justify-content: space-around;
   padding: 1em 7em;
+  max-width: 1500px;
+  margin: 0 auto;
+  margin-bottom: 5rem;
 }
 .testimonial {
   display: flex;
   flex-direction: column;
-  /* justify-content: center;
-  align-content: center; */
   text-align: center;
   background-color: var(--color-red-dark);
   margin: 1rem;
-  padding: 2em 3.5em;
+  padding: 1em 2.5em;
+
+ 
+}
+
+@media(max-width: 1000px){
+  .testimonials__container {
+    display: flex;
+    flex-direction: column;
+
+    padding: 1em 7em;
+    max-width: 1500px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+  }
+  .testimonial__text{
+    font-size: var(--font-small);
+  }
+  .testimonial__client {
+    font-size: var(--font-micro);
+  }
+
 }
 .testimonial__client {
   font-size: var(--font-small);
@@ -336,9 +376,15 @@ button {
   align-self: center;
   margin-bottom: 1rem;
 }
+
 /* booking */
 
+#booking{
+ margin-top: 5rem;
+ display: inline;
+}
 #booking h1 {
+  margin-top: 5rem;
   text-align: center;
 }
 .booking_btn {
@@ -348,9 +394,23 @@ button {
 }
 .booking__title {
   font-size: var(--font-large);
-  border-bottom: 2px solid var(--color-orange-secondary);
   text-align: center;
   display: block;
+  position: relative;
+}
+
+.booking__title:after {
+  position: absolute;
+  content: '';
+  height: 3px;
+  bottom: 1px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 35%;
+  max-width: 800px;
+  min-width: 650px;
+  background: var(--color-orange-secondary);
 }
 
 .booking__container {
