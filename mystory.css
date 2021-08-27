@@ -1,57 +1,15 @@
 body{
     margin: 0;
     background-color: black;
-}
-
-
-
-.mystory__hero__container{
-    margin: 0 auto;
-    position: relative;
-    display: flex;
-    height: 600px;
-    max-width: 900px;
-    border:2px solid red;
-}
-
-/* .mystory__hero__image{
-    
-} */
-
-.mystory__hero__textbox{
-    position: absolute;
-    top: 250px;
-    right: 0;
-    width: 200px;
-    height: 75px;
-    text-align: center;
-    overflow: hidden;
-}
-
-section{
-    max-width: 900px;
-    margin:0 auto;
-    padding: 0;
-}
-
-.mystory__prior__experience__container ,.mystory__story__container{
-    max-width: 900px;
-    padding: 0 10px;
-}
-
-.orange-line{
-    height: 5px;
-    width: 800px;
-    background-color: orange;
-    content: "";
-    display: block;
-}
-
-/* typography */
-
-h1,h2,h3,p{
     color: white;
 }
+
+
+/* typography */
+/* 
+h1,h2,h3,p{
+    color: white;
+} */
 h1,h2,h3{
     font-family: 'Nunito', sans-serif;;
 }
@@ -83,3 +41,66 @@ h3{
 .mystory__hero__textbox p{
     margin-bottom: 0;
 }
+
+.extra-headroom{
+    padding-top: 100px;
+}
+
+.mystory__hero__container{
+    margin: 0 auto;
+    position: relative;
+    display: flex;
+    height: 600px;
+    max-width: 900px;
+    border:2px solid red;
+}
+
+/* .mystory__hero__image{
+    
+} */
+
+.mystory__hero__textbox{
+    position: absolute;
+    top: 250px;
+    right: 0;
+    height: 75px;
+    width: 200px;
+    text-align: center;
+    overflow: hidden;
+}
+
+section{
+    max-width: 900px;
+    margin:0 auto;
+    padding: 0;
+}
+
+.mystory__prior__experience__container ,.mystory__story__container{
+    max-width: 900px;
+    padding: 0 10px;
+    position: relative;
+}
+
+.mystory__prior__experience__container__header{
+    position: absolute;
+    height: 80px;
+    width: 200px;
+    right: 0;
+    text-align: center;
+    background-color: white;
+    color: black
+}
+
+.mystory__prior__experience__container__header h2{
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+.orange-line{
+    width: 800px;
+    height: 50px;
+    background-color: orange;
+}
+
+
