@@ -35,7 +35,8 @@
 
 html {
   font-size: 62.5%; /* 10/16 = .625 = 62.5% || so now 1rem = 10px (for easier calculation) */
-  height: 100% /*for footer positioning */
+  height: 100%; /*for footer positioning */
+  scroll-behavior: smooth; /* for smooth scrolling */
 }
 
 body {
