@@ -292,8 +292,14 @@ section #menu_one{
 .playlists{
   display: flex;
   justify-content: center;
-  background-color: black;}
-.playlist_container{background-color:black;} 
+  background-color: hotpink;
+padding: 5rem;
+}
+
+.playlist_container{
+  background-color:hotpink;
+}
+
 /* FOOTER */
 
 .footer {
