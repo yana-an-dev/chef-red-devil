@@ -113,7 +113,8 @@ button {
 .hero {
   text-align: center;
   height: 80vh;
-  background-image: url("https://source.unsplash.com/kImU-9S9uh8/1200x800");
+  /* background-image: url("https://source.unsplash.com/kImU-9S9uh8");  we need a better hero photo */
+  background-image: url("https://source.unsplash.com/4NQEvxW2_4w/900x450"); 
   background-size: no-repeat;
   background-position: bottom center;
   background-size: cover;
@@ -125,14 +126,14 @@ button {
 }
 
 .hero::before {
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	background-color: rgba(0, 0, 0, 0.5);
-	z-index: -1;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: -1;
 }
 
 .hero h1 {
@@ -147,36 +148,42 @@ button {
   background: var(--color-peru-button-background);
   top: 0;
   top: 0;
-	width: 100%;
-	transition: all 0.5s;
-	position: relative;
-	z-index: 1;
+  width: 100%;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1;
 }
 
 .nav ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-	display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
 }
 
 .nav li {
-	flex: 1;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .nav a {
-  font-size: 2.1rem;
+  font-size: 2rem;
   font-weight: var(--weight-medium);
+  text-transform: uppercase;
+  letter-spacing: 1px;
   color: var(--color-black);
-	text-decoration: none;
-	padding: 2.5rem;
-	display: inline-block;
-	transition: all 0.2s;
-	text-transform: uppercase;
+  text-decoration: none;
+  padding: 2rem 4.5rem ;
+  display: inline-block;
+  transition: all 0.4s;
+}
+
+.nav a:hover,
+.nav a:active {
+  color: var(--color-white);
 }
 
 /* Header */
