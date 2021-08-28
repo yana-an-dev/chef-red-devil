@@ -50,6 +50,7 @@ h3{
     margin: 0 auto;
     position: relative;
     display: flex;
+
     height: 600px;
     max-width: 900px;
     border:2px solid red;
@@ -61,12 +62,10 @@ h3{
 
 .mystory__hero__textbox{
     position: absolute;
+    text-align: center;
     top: 250px;
     right: 0;
-    height: 75px;
-    width: 200px;
-    text-align: center;
-    overflow: hidden;
+    padding: 5px 10px;
 }
 
 section{
@@ -79,12 +78,12 @@ section{
     max-width: 900px;
     padding: 0 10px;
     position: relative;
+    margin-top: 25px;
 }
 
 .mystory__prior__experience__container__header{
     position: absolute;
-    height: 80px;
-    width: 200px;
+    padding: 5px 70px;
     right: 0;
     text-align: center;
     background-color: white;
@@ -97,10 +96,15 @@ section{
     padding: 0;
 }
 
-.orange-line{
+.orange_line{
     width: 800px;
-    height: 50px;
+    height: 4px;
     background-color: orange;
+    margin: 25px auto;
+    border-radius: 5px;
 }
 
-
+.mystory__booking__container{
+    margin-top: 50px;
+    text-align: center;
+}
