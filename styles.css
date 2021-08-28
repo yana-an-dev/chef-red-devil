@@ -143,10 +143,6 @@ button {
   font-size: 24px;
 }
 
-.hero .text-primary {
-  color: var(--color-red-primary);  
-}
-
 .nav {
   background: var(--color-peru-button-background);
   top: 0;
@@ -196,10 +192,10 @@ button {
   background-size: cover;
   max-width: 1200px;
   margin: 0 auto;
-}
+} */
 .header__text {
   color: var(--color-white);
-  font-size: var(--font-large);
+  /* font-size: var(--font-large); */
   padding-top: 50rem;
   text-align: center;
 }
@@ -207,13 +203,13 @@ button {
 .header__text--orange {
   color: var(--color-orange-secondary);
   font-weight: var(--weight-bold);
-  font-size: calc(var(--font-large) * 1.3);
+  /* font-size: calc(var(--font-large) * 1.3); */
 }
 .header__text--red {
   color: var(--color-red-primary);
   font-weight: var(--weight-bold);
-  font-size: calc(var(--font-large) * 1.3);
-} */
+  /* font-size: calc(var(--font-large) * 1.3); */
+}
 
 /* Main Buttons */
 
