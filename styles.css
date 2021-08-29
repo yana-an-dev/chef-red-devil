@@ -161,7 +161,7 @@ button {
   display: flex;
 }
 
-.nav li {
+.nav .navbar {
   flex: 1;
   text-align: center;
   display: flex;
@@ -176,7 +176,7 @@ button {
   letter-spacing: 1px;
   color: var(--color-black);
   text-decoration: none;
-  padding: 2rem 4.5rem ;
+  padding: 2rem 6rem ;
   display: inline-block;
   transition: all 0.4s;
 }
@@ -184,6 +184,7 @@ button {
 .nav a:hover,
 .nav a:active {
   color: var(--color-white);
+  background: var(--color-red-primary);
 }
 
 /* Header */
