@@ -18,13 +18,11 @@
 <body>
 
   <main>
-    <a id="top"></a>
+    <!-- <a id="top"></a>  moved it on hero-->
     <!-- anchor for footer-->
-
-
-    <!-- Navbar -->
-    <!-- <nav id="navbar">
-        <div class="navbar__logo">Logo: Chef Red</div>
+    <!-- Old navbar + header    
+    <nav id="navbar">
+        <h1 class="navbar__logo">Logo: Chef Red</h1>
         <ul class="navbar__menu">
             <li class="navbar__menu__item">Home</li>
             <li class="navbar__menu__item">My Story</li>
@@ -32,22 +30,33 @@
             <li class="navbar__menu__item">Booking</li>
             <li class="navbar__menu__item">Contact</li>
         </ul>
-    </nav> -->
+    </nav>
 
-    <!-- header -->
-    <header id="header" class="header">
-      <div class="header__text">
-        Welcome to Chef Jimmy's<br />
-        <span class="header__text--orange">FIE</span><span class="header__text--red">RY</span>
-        <span class="header__text--orange">KITC</span><span class="header__text--red">HEN</span><br />
-        <strong>Let Us Cook For You</strong><br />
-        <i>"Experience Michelin star cooking in your own home"</i>
+    <!-- Hero Section -->
+
+     <header class="hero" id="hero">
+      <div class="container">
+				<h1>Welcome to Chef Jimmy's <br />
+          <span class="header__text--orange">FIE</span><span class="header__text--red">RY</span>
+          <span class="header__text--orange">KITC</span><span class="header__text--red">HEN</span><br />
+				<p>Let Me Cook For You</p>
+				<p>"Experience Michelin star cooking in your own home"</p>
+			</div>
+     </header>
+
+     <nav class="nav" id="nav">
+      <div class="navbar">
+      <ul>
+        <li><a href="#hero">"LOGO"</a></li>
+        <li><a href="/mystory.html">My Story</a></li>
+        <li><a href="#menus">Menu</a></li>
+        <li><a href="#booking">Booking</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+      </ul>
       </div>
+     </nav>
 
-    </header>
-
-
-    <!-- Main Buttons -->
+    <!-- Main Buttons : swapped the buttons with a navbar
 
     <section id="main-buttons">
       <div class="main-buttons__container">
@@ -300,7 +309,7 @@
     <!-- Footer / Contact-->
   </main>
   <footer class="footer">
-    <button type="button" class="footer-btn"><a href="#top">Back to top ⬆️</a></button>
+    <button type="button" class="footer-btn"><a href="#hero">Back to top ⬆️</a></button>
     <p> © chefreddevil.com 2021 - Designed and developed by Team Red </p>
     <button type="button" class="footer-btn"> <a href=tel:" Call 1000 777 777"> 📞Call us at 1000-777-777
       </a> </button>
