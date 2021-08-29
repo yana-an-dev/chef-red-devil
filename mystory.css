@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: black;
+    background-color: #323232;
     color: white;
 }
 
@@ -53,7 +53,6 @@ h3{
 
     height: 600px;
     max-width: 900px;
-    border:2px solid red;
 }
 
 /* .mystory__hero__image{
@@ -66,6 +65,7 @@ h3{
     top: 250px;
     right: 0;
     padding: 5px 10px;
+    box-shadow: 2px -2px 5px rgba(10, 0, 0, 0.233);
 }
 
 section{
@@ -87,7 +87,8 @@ section{
     right: 0;
     text-align: center;
     background-color: white;
-    color: black
+    color: black;
+    box-shadow: 4px -4px 5px rgba(255 255 255 / 22%);
 }
 
 .mystory__prior__experience__container__header h2{
