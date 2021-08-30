@@ -64,3 +64,7 @@ function client2() {
 }
 
 
+const menuBtnOne = document.getElementById('menu__one')
+menuBtnOne.addEventListener('click', () => {
+    classList.add('detail')
+})
