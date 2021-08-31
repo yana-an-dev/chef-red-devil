@@ -187,6 +187,11 @@ button {
   background: var(--color-red-primary);
 }
 
+#logo-navbar {
+  max-width: 15%;
+  max-height: 15%;
+}
+
 /* Header */
 
 /* #header {
