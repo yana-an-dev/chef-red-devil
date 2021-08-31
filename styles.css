@@ -7,6 +7,8 @@
   --color-orange-secondary: #ef5e36;
   --color-peru-button-background: #d97e4a;
   --color-white: #fff;
+  --color-black-light: #0f0e17;
+  --color-text: #a7a9be;
 
   /* Font Size */
   --font-large: 2.5rem;
@@ -394,9 +396,9 @@ button {
 /* testimonials */
 
 #testimonials {
-  
   margin-top: 7em;
 }
+
 .testimonials__title {
   position: relative;
   font-size: var(--font-large);
@@ -425,15 +427,21 @@ button {
   margin: 0 auto;
   margin-bottom: 5rem;
 }
+
 .testimonial {
   display: flex;
   flex-direction: column;
   text-align: center;
-  background-color: var(--color-red-dark);
+  background-color: var(--color-black-light);
   margin: 1rem;
-  padding: 1em 2.5em;
+  padding: 2em 2.5em;
+  border-radius: 40px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
 
- 
+.testimonial__text {
+  color: var(--color-text);
 }
 
 @media(max-width: 1000px){
@@ -446,22 +454,36 @@ button {
     margin: 0 auto;
     margin-bottom: 5rem;
   }
+
   .testimonial__text{
     font-size: var(--font-small);
   }
+
   .testimonial__client {
     font-size: var(--font-micro);
   }
-
 }
+
 .testimonial__client {
   font-size: var(--font-small);
 }
+
 .testimonial__img {
   width: 9rem;
-  border-radius: 50%;
   align-self: center;
   margin-bottom: 1rem;
+}
+
+.testimonial__img--1 {
+  border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+}
+
+.testimonial__img--2 {
+  border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+}
+
+.testimonial__img--3 {
+  border-radius: 40% 60% 70% 35% / 40% 50% 60% 50%;
 }
 
 /* booking */
