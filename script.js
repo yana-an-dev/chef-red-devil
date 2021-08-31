@@ -63,8 +63,22 @@ function client2() {
     chats.appendChild(div)
 }
 
+//menu click toggles
+const menuBtnOne = document.querySelector('.menu__one--button')
+const menuOneDetail = document.querySelector('.menu__one--detail')
+const menuBtnTwo = document.querySelector('.menu__two--button')
+const menuTwoDetail = document.querySelector('.menu__two--detail')
+const menuBtnThree = document.querySelector('.menu__three--button')
+const menuThreeDetail = document.querySelector('.menu__three--detail')
 
-const menuBtnOne = document.getElementById('menu__one')
-menuBtnOne.addEventListener('click', () => {
-    classList.add('detail')
+menuBtnOne.addEventListener('click', (e) => {
+    menuOneDetail.classList.toggle('open')
+})
+
+menuBtnTwo.addEventListener('click', (e) => {
+    menuTwoDetail.classList.toggle('open')
+})
+
+menuBtnThree.addEventListener('click', (e) => {
+    menuThreeDetail.classList.toggle('open')
 })
