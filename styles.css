@@ -597,8 +597,10 @@ button {
 
 
 .menu__one--playlists{
-  margin: 1em;
+  background-color: hotpink;
+  padding: 5rem;
 }
+
 .menu__one--playlist__title{
   
 }
@@ -663,6 +665,7 @@ button {
   display: flex;
   justify-content: center;
   margin-bottom: 10rem;
+
 }
 
 
