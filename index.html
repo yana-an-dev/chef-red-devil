@@ -2,138 +2,381 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E
-    <link rel=" preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,900;1,400&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
-    <title>Chef Jimin's Fiery Kitchen</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
+  <link rel=" preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,900;1,400&display=swap"
+    rel="stylesheet">
+  <link rel="icon" href="assets/web_logo-white.png" />
+  <link rel="stylesheet" href="styles.css">
+  <title>Chef Jimin's Fiery Kitchen</title>
 </head>
+
+
 
 <body>
 
+  <main>
 
+    <!-- Header Section -->
 
-    <!-- Navbar -->
-    <!-- <nav id="navbar">
-        <div class="navbar__logo">Logo: Chef Red</div>
-        <ul class="navbar__menu">
-            <li class="navbar__menu__item">Home</li>
-            <li class="navbar__menu__item">Menu</li>
-            <li class="navbar__menu__item">Testimonials</li>
-            <li class="navbar__menu__item">Booking</li>
-            <li class="navbar__menu__item">Contact</li>
-        </ul>
-    </nav> -->
-
-    <!-- header -->
-    <header id="header" class="header">
-        <div class="header__text">
-            Welcome to Chef Jimin's<br />
-            <span class="header__text--orange">FIE</span><span class="header__text--red">RY</span>
-            <span class="header__text--orange">KITC</span><span class="header__text--red">HEN</span><br />
-            <strong>Let Us Cook For You</strong><br />
-            <i>"Experience Michelin star cooking in your own home"</i>
-        </div>
-
+    <header class="hero" id="hero">
+      <div class="container">
+        <h1>Welcome to Chef Jimin's <br />
+          <span class="header__text--orange">FIE</span><span class="header__text--red">RY</span>
+          <span class="header__text--orange">KITC</span><span class="header__text--red">HEN</span><br />
+          <p>Let Me Cook For You</p>
+          <p>"Experience Michelin star cooking in your own home"</p>
+      </div>
     </header>
 
+    <!--Navbar-->
 
-    <!-- Main Buttons -->
+    <nav class="nav" id="nav">
+      <div class="navbar">
+        <ul>
+          <li><a href="#hero"><img src="./assets/logo.png" alt="Chef Jimni Logo" id="logo-navbar"></a></li>
+          <li><a href="./mystory.html">My Story</a></li>
+          <li><a href="#menus">Menu</a></li>
+          <li><a href="#booking">Booking</a></li>
+          <li><a href="#testimonials">Reviews</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Main Buttons : swapped the buttons with a navbar
 
     <section id="main-buttons">
-        <button class="main-buttons story">My Story</button>
+      <div class="main-buttons__container">
+        <a href="mystory.html"><button class="main-buttons story">My Story</button></a>
         <button class="main-buttons menu">The Menu</button>
         <button class="main-buttons price">The Prices</button>
+      </div>
+
     </section>
 
     <!-- Chat Bubbles -->
     <section class="chatbubble">
-        <div class="chatbubble__text">
-            <div class="chatbubble__chats"></div>
-        </div>
-        <div class="chatbubble__picture">
-            <img src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="" class="chatbubble__illustration">
-        </div>
+      <div class="chatbubble__text">
+        <div class="chatbubble__chats"></div>
+      </div>
+      <div class="chatbubble__picture">
+        <img
+          src="https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+          alt="" class="chatbubble__illustration">
+      </div>
     </section>
 
-    <!-- Testimonials -->
-    <section id="testimonials"></section>
-
-    <!-- booking -->
-    <section id="booking">
-        <h1>Booking</h1>
-        <div class="booking__container">
-            <iframe
-                src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23616161&ctz=Etc%2FGMT&src=N3VyYzJqb3RtcGc0a25pZ2k2dDR1dmRqNGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23616161&showTitle=0&showNav=0&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&mode=MONTH"
-                style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-
-        </div>
-    </section>
 
     <!-- Menus  -->
     <section id="menus">
-        <h1>OUR MENU</h1>
-        <div class="menus__container">
-            <div class="menu__one">
-                🌶menu__one
+      <h1 class="menus">OUR MENU</h1>
 
-            </div>
-            <div class="menu__two">
-                🌶🌶menu__two
-
-            </div>
-            <div class="menu__three">
-                🌶🌶🌶menu__three
-
-            </div>
-
+      <div class="menus__container">
+        <div class="menu__one">
+          <button class="menu__one--button">Healthy Lunch Buffet</button>
+        </div>
+        <div class="menu__one--detail">
+          <div class="menu__one--detail__title">Healthy Lunch Buffet</div>
+          <div class="menu__one--detail__desc">Wanna join for the pleasant Healthy brunch with family? Jimin will
+            prepare
+            traditional healty korean lunch buffet for you. All you can eat and just enjoy!</div>
+          <ul class="menu__one--detail__list">
+            <li><strong>Main dish</strong><br /> The main dishes during a Hanjeongsik usually involve a form of Korean
+              pancake, fried
+              dishes,
+              soybean paste stew, eel, shelled crabs, raw fish, patbab (a mixture of rice, beans and nuts), soups,
+              kimchi, porridge, meat, hot pot and much more.</li>
+            <li><strong>Side dishes</strong><br /> They follow the philosophy of Eumyang Ohaeng, which is about Yin,
+              Yang and the primary
+              5
+              elements. This concept values the harmony between the 5 tastes (The dishes are grilled, boiled, steamed,
+              fried, or salted) and 5 colors (red, blue, green, white, back).</li>
+            <li><strong>Desert</strong><br />After the meal, traditional sweet drinks such as Sikhye (Rice punch) or
+              Sujeonggwa
+              (persimmon-cinnamon
+              punch) are served.</li>
+          </ul>
+          <div class="menu__one--playlists">
+            <div class="menu__one--playlist__title">Some Like it Hot</div>
+            <div class="menu__one--playlist__text">Jimin offer perfect playlist for your lunch mood!</div>
+            <iframe src="https://open.spotify.com/embed/playlist/3pyPyRxHW6rjaKKOPYUScy?theme=0" width="80%"
+              height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
         </div>
 
 
-        <div class="menu__detail__container">
-            <h1>Menu Detail</h1>
-            "Menu detail display: none, show when clicked."
-            <div class="menu__detail menu__one">
-                <!--playlist-->
-                
-            </div>
-        </div> <div class ="playlist_container"><h1> Chef Jimin's Jammin'  Spotify Playlist </h1>
-                <div class="playlists">
-                                        <iframe class="playlist" src="https://open.spotify.com/embed/artist/0L8ExT028jH3ddEcZwqJJ5"
-                        width="50%" height="380" frameBorder="0" allowtransparency="true"
-                        allow="encrypted-media"></iframe>
-
-                        <iframe src="https://open.spotify.com/embed/playlist/3pyPyRxHW6rjaKKOPYUScy?theme=0" 
-                        width="100%" height="380" frameBorder="0" 
-                        allowtransparency="true" allow="encrypted-media"></iframe></div>>
-                </div>
-            </div>
-            <div class="menu__detail menu__two ">
-
-            </div>
-            <div class="menu__detail menu__three">
-
-            </div>
+        <div class="menu__two">
+          <button class="menu__two--button">Flame BBQ</button>
         </div>
+        <div class="menu__two--detail">
+          <div class="menu__two--detail__title">Flame BBQ</div>
+          <div class="menu__two--detail__desc">Wanna join for the pleasant Healthy brunch with family? Jimin will
+            prepare
+            traditional healty korean lunch buffet for you. All you can eat and just enjoy!</div>
+          <ul class="menu__two--detail__list">
+            <li><strong>Main dish</strong><br /> The main dishes during a Hanjeongsik usually involve a form of Korean
+              pancake, fried
+              dishes,
+              soybean paste stew, eel, shelled crabs, raw fish, patbab (a mixture of rice, beans and nuts), soups,
+              kimchi, porridge, meat, hot pot and much more.</li>
+            <li><strong>Side dishes</strong><br /> They follow the philosophy of Eumyang Ohaeng, which is about Yin,
+              Yang and the primary
+              5
+              elements. This concept values the harmony between the 5 tastes (The dishes are grilled, boiled, steamed,
+              fried, or salted) and 5 colors (red, blue, green, white, back).</li>
+            <li><strong>Desert</strong><br />After the meal, traditional sweet drinks such as Sikhye (Rice punch) or
+              Sujeonggwa
+              (persimmon-cinnamon
+              punch) are served.</li>
+          </ul>
+          <div class="menu__two--playlists">
+            <div class="menu__two--playlist__title">Some Like it Hot</div>
+            <div class="menu__two--playlist__text">Jimin offer perfect playlist for your lunch mood!</div>
+
+            <iframe src="https://open.spotify.com/embed/playlist/3pyPyRxHW6rjaKKOPYUScy?theme=0" width="80%"
+              height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </div>
+
+
+        <div class="menu__three">
+          <button class="menu__three--button">Spicy afternoon snack</button>
+        </div>
+        <div class="menu__three--detail">
+          <div class="menu__three--detail__title">Spicy afternoon snack</div>
+          <div class="menu__three--detail__desc">Wanna join for the pleasant Healthy brunch with family? Jimin will
+            prepare
+            traditional healty korean lunch buffet for you. All you can eat and just enjoy!</div>
+          <ul class="menu__three--detail__list">
+            <li><strong>Main dish</strong><br /> The main dishes during a Hanjeongsik usually involve a form of
+              Korean
+              pancake, fried
+              dishes,
+              soybean paste stew, eel, shelled crabs, raw fish, patbab (a mixture of rice, beans and nuts), soups,
+              kimchi, porridge, meat, hot pot and much more.</li>
+            <li><strong>Side dishes</strong><br /> They follow the philosophy of Eumyang Ohaeng, which is about Yin,
+              Yang and the primary
+              5
+              elements. This concept values the harmony between the 5 tastes (The dishes are grilled, boiled,
+              steamed,
+              fried, or salted) and 5 colors (red, blue, green, white, back).</li>
+            <li><strong>Desert</strong><br />After the meal, traditional sweet drinks such as Sikhye (Rice punch) or
+              Sujeonggwa
+              (persimmon-cinnamon
+              punch) are served.</li>
+          </ul>
+          <div class="menu__three--playlists">
+            <div class="menu__three--playlist__title">Some Like it Hot</div>
+            <div class="menu__three--playlist__text">Jimin offer perfect playlist for your lunch mood!</div>
+            <iframe src="https://open.spotify.com/embed/playlist/3pyPyRxHW6rjaKKOPYUScy?theme=0" width="80%"
+              height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+          </div>
+        </div>
+
+
+      </div>
+
+
+      </div>
+      </div>
 
     </section>
 
 
+    <!-- Testimonials -->
+    <section id="testimonials">
+
+      <h1 class="testimonials__title"> Hear what our clients say about us!</h1>
+
+      <div class="testimonials__container">
+        <div class="testimonial">
+          <img class="testimonial__img testimonial__img--1" src="assets/person.jpeg" alt="testimonial__client__photo">
+          <p class="testimonial__client">
+            Rishann from Sunbury, UK
+          </p>
+          <p class="testimonial__text">
+            "Chef Jimmy took over our Kitchen and made us feel like we were in our own 5 star restaurant! The food and
+            the music! Amazing!"
+          </p>
+        </div>
+        <div class="testimonial">
+          <img class="testimonial__img testimonial__img--2" src="assets/person.jpeg" alt="testimonial__client__photo">
+          <p class="testimonial__client">
+            Rishann from Sunbury, UK
+          </p>
+          <p class="testimonial__text">
+            "Chef Jimmy took over our Kitchen and made us feel like we were in our own 5 star restaurant! The food and
+            the music! Amazing!"
+          </p>
+        </div>
+        <div class="testimonial">
+          <img class="testimonial__img testimonial__img--3" src="assets/person.jpeg" alt="testimonial__client__photo">
+          <p class="testimonial__client">
+            Rishann from Sunbury, UK
+          </p>
+          <p class="testimonial__text">
+            "Chef Jimmy took over our Kitchen and made us feel like we were in our own 5 star restaurant! The food and
+            the music! Amazing!"
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- booking -->
+    <section id="booking">
+      <h1 class="booking__title">
+        Every meal will be an unforgetable dining experience</h1>
+
+      <div class="booking__container">
+        <button class="booking_btn">BOOK NOW</button>
+        <!-- <iframe
+              src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23616161&ctz=Etc%2FGMT&src=N3VyYzJqb3RtcGc0a25pZ2k2dDR1dmRqNGdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&color=%23616161&showTitle=0&showNav=0&showDate=1&showPrint=0&showTabs=0&showCalendars=0&showTz=0&mode=MONTH"
+              style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+
+      </div>
+    </section>
+
+
+    <!-- Pricing section -->
+
+    <section class="pricing">
+      <div class="pricing__cards">
+        <div class="pricing__card pricing__card--1">
+          <p class="card__package-name">Starter</p>
+          <p class="card__price">$<span>199</span></p>
+          <p class="card__period"></p>
+          <ul class="features">
+            <li class="feature__name feature__name--1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Checkmark</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M416 128L192 384l-96-96" />
+              </svg>
+              feature one
+            </li>
+            <li class="feature__name feature__name--2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Checkmark</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M416 128L192 384l-96-96" />
+              </svg>
+              feature two
+            </li>
+            <li class="feature__name feature__name--3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Checkmark</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M416 128L192 384l-96-96" />
+              </svg>
+              feature three
+            </li>
+            <li class="feature__name feature__name--4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Close</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M368 368L144 144M368 144L144 368" />
+              </svg>
+              feature four
+            </li>
+          </ul>
+          <a href="#" class="pricing__cta">Get started</a>
+        </div>
+        <div class="pricing__card pricing__card--2">
+          <div class="ribbon"><span>POPULAR</span></div>
+          <p class="card__package-name">Basic</p>
+          <p class="card__price">$<span>199</span></p>
+          <ul class="features">
+            <li class="feature__name feature__name--1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Checkmark</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M416 128L192 384l-96-96" />
+              </svg>
+              feature one
+            </li>
+            <li class="feature__name feature__name--2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Checkmark</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M416 128L192 384l-96-96" />
+              </svg>
+              feature two
+            </li>
+            <li class="feature__name feature__name--3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Checkmark</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M416 128L192 384l-96-96" />
+              </svg>
+              feature three
+            </li>
+            <li class="feature__name feature__name--4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Close</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M368 368L144 144M368 144L144 368" />
+              </svg>
+              feature four
+            </li>
+          </ul>
+          <a href="#" class="pricing__cta">Get started</a>
+        </div>
+        <div class="pricing__card pricing__card--3">
+          <p class="card__package-name">Pro</p>
+          <p class="card__price">$<span>199</span></p>
+          <ul class="features">
+            <li class="feature__name feature__name--1">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Checkmark</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M416 128L192 384l-96-96" />
+              </svg>
+              feature one
+            </li>
+            <li class="feature__name feature__name--2">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Checkmark</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M416 128L192 384l-96-96" />
+              </svg>
+              feature two
+            </li>
+            <li class="feature__name feature__name--3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Checkmark</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M416 128L192 384l-96-96" />
+              </svg>
+              feature three
+            </li>
+            <li class="feature__name feature__name--4">
+              <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" viewBox="0 0 512 512">
+                <title>Close</title>
+                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"
+                  d="M368 368L144 144M368 144L144 368" />
+              </svg>
+              feature four
+            </li>
+          </ul>
+          <a href="#" class="pricing__cta">Get started</a>
+        </div>
+      </div>
+    </section>
+
 
     <!-- Footer / Contact-->
-    <footer class="footer">
-        <p>authorship information</p>
-        <p>copyright information</p>
-        <p>contact information</p>
-        <p>sitemap</p>
-        <p>back to top link</p>
-        <p>related documents</p>
-    </footer>
+  </main>
+  <footer class="footer">
+    <button type="button" class="footer-btn"><a href="#hero">Back to top ⬆️</a></button>
+    <p> © chefreddevil.com 2021 - Designed and developed by Team Red </p>
+    <button type="button" class="footer-btn"> <a href=tel:" Call 1000 777 777"> 📞Call us at 1000-777-777
+      </a> </button>
+  </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 
 </html>
