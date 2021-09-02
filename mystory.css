@@ -53,11 +53,12 @@ h3{
 
     height: 600px;
     max-width: 900px;
+
 }
 
-/* .mystory__hero__image{
-    
-} */
+.mystory__hero__image{
+    width: 500px;
+}
 
 .mystory__hero__textbox{
     position: absolute;
@@ -108,4 +109,8 @@ section{
 .mystory__booking__container{
     margin-top: 50px;
     text-align: center;
+    background-image: url(./assets/bg_booking.png);
+    padding: 50px 20px;
+    padding-bottom: 60px;
+
 }
