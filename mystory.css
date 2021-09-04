@@ -4,12 +4,6 @@ body{
     color: white;
 }
 
-
-/* typography */
-/* 
-h1,h2,h3,p{
-    color: white;
-} */
 h1,h2,h3{
     font-family: 'Nunito', sans-serif;;
 }
@@ -57,7 +51,8 @@ h3{
 }
 
 .mystory__hero__image{
-    width: 500px;
+    height: 550px;
+    margin-top: 50px;
 }
 
 .mystory__hero__textbox{
@@ -73,6 +68,24 @@ section{
     max-width: 900px;
     margin:0 auto;
     padding: 0;
+}
+
+.korean_mama{
+    height: 240px;
+    display: flex;
+}
+.korean_mama img{
+    height: 230px;
+    padding-right: 10px;
+}
+
+.mystory__flambe__cooking{
+    display: flex;
+}
+
+.mystory__fire__img{
+    height: 230px;
+    padding-left: 15px;
 }
 
 .mystory__prior__experience__container ,.mystory__story__container{
