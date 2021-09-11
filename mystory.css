@@ -1,111 +1,106 @@
-body{
-    margin: 0;
-    background-color: #323232;
-    color: white;
+body {
+	margin: 0;
+	background-color: #323232;
+	color: white;
+	font-family: 'Red Hat Display', sans-serif;
 }
-
 
 /* typography */
-/* 
-h1,h2,h3,p{
-    color: white;
-} */
-h1,h2,h3{
-    font-family: 'Nunito', sans-serif;;
+
+h1 {
+	font-size: 64px;
 }
 
-h1{
-    font-size: 30px;
-    color: orange;
+h2 {
+	font-size: 25px;
 }
 
-h2{
-    font-size: 25px;
+h3 {
+	font-size: 20px;
 }
 
-h3{
-    font-size: 20px;
+.date {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight: 200;
+	margin-top: 30px;
+	/* margin-bottom: 10px; */
 }
 
-.date{
-    font-family: 'Nunito', sans-serif;
-    font-weight: 200;
-    margin-top: 30px;
-    /* margin-bottom: 10px; */
+.no_space {
+	margin: 0;
 }
 
-.no_space{
-    margin: 0;
+.mystory__hero__textbox p {
+	margin-bottom: 0;
+	text-align: center;
 }
 
-.mystory__hero__textbox p{
-    margin-bottom: 0;
+.extra-headroom {
+	padding-top: 100px;
 }
 
-.extra-headroom{
-    padding-top: 100px;
+.mystory__hero__container {
+	margin: 0 auto;
+	position: relative;
+	background-image: url('https://source.unsplash.com/jRKqqyKA0T4/');
+	background-size: no-repeat;
+	background-position: bottom center;
+	background-size: cover;
+	height: 60vh;
+	max-width: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
-.mystory__hero__container{
-    margin: 0 auto;
-    position: relative;
-    display: flex;
-
-    height: 600px;
-    max-width: 900px;
+.mystory__hero__textbox {
+	/* position: absolute;
+	text-align: center;
+	top: 250px;
+	right: 0; */
+	padding: 5px 10px;
+	box-shadow: 2px -2px 5px rgba(10, 0, 0, 0.233);
 }
 
-/* .mystory__hero__image{
-    
-} */
-
-.mystory__hero__textbox{
-    position: absolute;
-    text-align: center;
-    top: 250px;
-    right: 0;
-    padding: 5px 10px;
-    box-shadow: 2px -2px 5px rgba(10, 0, 0, 0.233);
+section {
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0;
 }
 
-section{
-    max-width: 900px;
-    margin:0 auto;
-    padding: 0;
+.mystory__prior__experience__container,
+.mystory__story__container {
+	max-width: 900px;
+	padding: 0 10px;
+	position: relative;
+	margin-top: 25px;
 }
 
-.mystory__prior__experience__container ,.mystory__story__container{
-    max-width: 900px;
-    padding: 0 10px;
-    position: relative;
-    margin-top: 25px;
+.mystory__prior__experience__container__header {
+	position: absolute;
+	padding: 5px 70px;
+	right: 0;
+	text-align: center;
+	background-color: white;
+	color: black;
+	box-shadow: 4px -4px 5px rgba(255 255 255 / 22%);
 }
 
-.mystory__prior__experience__container__header{
-    position: absolute;
-    padding: 5px 70px;
-    right: 0;
-    text-align: center;
-    background-color: white;
-    color: black;
-    box-shadow: 4px -4px 5px rgba(255 255 255 / 22%);
+.mystory__prior__experience__container__header h2 {
+	color: black;
+	margin: 0;
+	padding: 0;
 }
 
-.mystory__prior__experience__container__header h2{
-    color: black;
-    margin: 0;
-    padding: 0;
+.orange_line {
+	width: 800px;
+	height: 4px;
+	background-color: orange;
+	margin: 25px auto;
+	border-radius: 5px;
 }
 
-.orange_line{
-    width: 800px;
-    height: 4px;
-    background-color: orange;
-    margin: 25px auto;
-    border-radius: 5px;
-}
-
-.mystory__booking__container{
-    margin-top: 50px;
-    text-align: center;
+.mystory__booking__container {
+	margin-top: 50px;
+	text-align: center;
 }
