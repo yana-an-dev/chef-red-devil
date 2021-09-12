@@ -112,6 +112,10 @@ button {
 
 /*  Hero section & Navbar */
 
+.logo {
+	margin-top: 0.5 rem;
+}
+
 .hero {
 	text-align: center;
 	height: 80vh;
