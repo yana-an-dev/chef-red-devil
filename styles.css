@@ -6,6 +6,7 @@
 	--color-red-dark: #491c03;
 	--color-orange-secondary: #ef5e36;
 	--color-peru-button-background: #d97e4a;
+	--color-light-orange: #eecdb6;
 	--color-white: #fff;
 	--color-black-light: #0f0e17;
 	--color-text: #a7a9be;
@@ -51,8 +52,8 @@ body {
 }
 
 main {
-	min-height: 100%; /*for footer positioning */
-	margin-bottom: -8rem; /*for footer positioning */
+	/* min-height: 100%; for footer positioning */
+	/* margin-bottom: -8rem; for footer positioning */
 }
 
 main:after {
@@ -176,7 +177,7 @@ button {
 }
 
 .nav a {
-	font-size: 2rem;
+	font-size: 1.8rem;
 	font-weight: var(--weight-medium);
 	text-transform: uppercase;
 	letter-spacing: 1px;
@@ -613,7 +614,24 @@ button {
 
 /* FOOTER */
 
-.footer {
+#footer {
+	display: flex;
+	align-content: center;
+	justify-content: center;
+	width: 100%;
+	padding: 0.8rem;
+	background-color: var(--color-light-orange);
+}
+
+#footer p {
+	color: var(--color-black);
+	font-size: var(--font-small);
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+/* .footer {
 	height: 8rem;
 	justify-content: space-around;
 	display: flex;
@@ -633,12 +651,12 @@ button {
 	margin: 4px 2px;
 	cursor: pointer;
 	background-color: #2b2b2b;
-}
+} */
 
 /* Pricing */
 
 .pricing {
-	margin-top: 7rem;
+	margin-top: 5rem;
 }
 
 .pricing__cards {

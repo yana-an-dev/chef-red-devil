@@ -3,6 +3,10 @@ body {
 	background-color: #323232;
 	color: white;
 	font-family: 'Red Hat Display', sans-serif;
+	font-size: 1.6rem;
+	line-height: 1.56;
+	background-color: var(--color-black);
+	box-sizing: border-box;
 }
 
 /* typography */
@@ -74,6 +78,7 @@ section {
 	padding: 0 10px;
 	position: relative;
 	margin-top: 25px;
+	margin-bottom: 5rem;
 }
 
 .mystory__prior__experience__container__header {
