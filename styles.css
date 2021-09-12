@@ -545,7 +545,7 @@ button {
 }
 
 .menu__one--playlists {
-	background-color: hotpink;
+	background-color: var(--color-peru-button-background);
 	padding: 5rem;
 }
 
