@@ -112,10 +112,6 @@ button {
 
 /*  Hero section & Navbar */
 
-.logo {
-	margin-top: 0.5 rem;
-}
-
 .hero {
 	text-align: center;
 	height: 80vh;
@@ -162,6 +158,14 @@ button {
 	transition: all 0.5s;
 	position: relative;
 	z-index: 1;
+}
+
+.sticky-nav nav {
+	position: fixed;
+}
+
+.nav .logo-img {
+	height: 20px;
 }
 
 .nav ul {
@@ -344,34 +348,6 @@ button {
 		transform: scale(1);
 	}
 }
-
-/* old navbar  */
-/* 
-#navbar {
-  display: none;
-  background: var(--color-black);
-  position: fixed;
-  display: flex;
-  background-color: var(--color-black);
-  align-items: center;
-  padding: 8px;
-  width: 100%;
-  z-index: 1;
-}
-
-.navbar__logo {
-  color: var(--color-orange);
-  font-size: var(--font-medium);
-  width: 40%;
-  padding-left: 1rem;
-}
-
-.navbar__menu {
-  display: flex;
-  color: var(--color-orange);
-  justify-content: space-between;
-  width: 50%;
-} */
 
 /* testimonials */
 
