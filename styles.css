@@ -212,6 +212,10 @@ button {
 	/* font-size: calc(var(--font-large) * 1.3); */
 }
 
+.uppercased {
+	text-transform: uppercase;
+}
+
 /* Main Buttons */
 
 #main-buttons {
