@@ -16,6 +16,7 @@
 	--font-medium: 1.8rem;
 	--font-regular: 1.5rem; /*10px*/
 	--font-small: 1.3rem;
+	--font-smaller: 1rem;
 	--font-micro: 0.7rem;
 
 	/* Font Weight */
@@ -49,17 +50,6 @@ body {
 	line-height: 1.56;
 	background-color: var(--color-black);
 	height: 100%; /*for footer positioning */
-}
-
-main {
-	/* min-height: 100%; for footer positioning */
-	/* margin-bottom: -8rem; for footer positioning */
-}
-
-main:after {
-	content: ''; /*for footer positioning */
-	display: block; /*for footer positioning */
-	height: 8rem; /*for footer positioning */
 }
 
 a {
@@ -488,6 +478,7 @@ button {
 .menu__three--button {
 	cursor: pointer;
 	opacity: 0.82;
+	border-radius: 5px;
 }
 
 .menu__one--button:hover,
@@ -588,6 +579,11 @@ button {
 	align-content: center;
 	align-self: center;
 	margin: 5rem;
+	border-radius: 5px;
+}
+
+.booking_btn:hover {
+	background-color: var(--color-peru-button-background);
 }
 .booking__title {
 	font-size: var(--font-large);
@@ -618,45 +614,36 @@ button {
 
 /* FOOTER */
 
-#footer {
+.footer {
 	display: flex;
-	align-content: center;
+	flex-direction: column;
+	align-items: center;
 	justify-content: center;
-	width: 100%;
-	padding: 0.8rem;
-	background-color: var(--color-light-orange);
+	text-align: center;
+	height: 200px;
+	margin-top: 5rem;
 }
 
-#footer p {
-	color: var(--color-black);
-	font-size: var(--font-small);
-	font-weight: 500;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-}
-
-/* .footer {
-	height: 8rem;
-	justify-content: space-around;
-	display: flex;
-	gap: 10rem;
-	padding: 5rem;
+.footer .social-media > * {
+	margin-right: 3rem;
 	color: var(--color-white);
 }
 
-.footer-btn {
-	border: none;
-	border-radius: 10px;
-	padding: 20px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	margin: 4px 2px;
-	cursor: pointer;
-	background-color: #2b2b2b;
-} */
+.footer a:hover {
+	color: var(--color-orange-secondary);
+}
 
+.footer p {
+	font-weight: 500;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	padding: 1.5rem 0;
+}
+
+.footer .red-team {
+	color: var(--color-orange-secondary);
+	font-size: var(--font-smaller);
+}
 /* Pricing */
 
 .pricing {
@@ -729,6 +716,10 @@ button {
 	border-radius: 5px;
 	font-size: 1.8rem;
 	cursor: pointer;
+}
+
+.pricing__cta:hover {
+	background-color: var(--color-peru-button-background);
 }
 
 .ribbon {
