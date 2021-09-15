@@ -27,7 +27,7 @@ h3 {
 	font-family: 'Red Hat Display', sans-serif;
 	font-weight: 200;
 	margin-top: 30px;
-	/* margin-bottom: 10px; */
+	margin-bottom: 10px;
 }
 
 .no_space {
@@ -63,7 +63,11 @@ h3 {
 	top: 250px;
 	right: 0; */
 	padding: 5px 10px;
-	box-shadow: 2px -2px 5px rgba(10, 0, 0, 0.233);
+	/* box-shadow: 2px -2px 5px rgba(10, 0, 0, 0.233); */
+}
+
+.mystory__hero__textbox h1 {
+	color: var(--color-orange-secondary);
 }
 
 section {
@@ -81,18 +85,26 @@ section {
 	margin-bottom: 5rem;
 }
 
+.family-cooking img {
+	width: 720px;
+}
+
+.mystory-video {
+	max-width: 720px;
+	padding: 3rem 0;
+}
+
 .mystory__prior__experience__container__header {
-	position: absolute;
-	padding: 5px 70px;
-	right: 0;
-	text-align: center;
-	background-color: white;
-	color: black;
-	box-shadow: 4px -4px 5px rgba(255 255 255 / 22%);
+	/* position: absolute; */
+	/* padding: 5px 70px; */
+	/* right: 0; */
+	/* text-align: center; */
+	background-color: var(--color-black);
+	/* box-shadow: 4px -4px 5px rgba(255 255 255 / 22%); */
 }
 
 .mystory__prior__experience__container__header h2 {
-	color: black;
+	color: var(--color-white);
 	margin: 0;
 	padding: 0;
 }
