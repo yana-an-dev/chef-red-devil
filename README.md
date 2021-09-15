@@ -1,9 +1,13 @@
-# Scrimba Team Challenge: A Chef's Personal Website 
+# Scrimba Team Challenge: A Chef's Personal Website
 
 🟥 Red Team Project : 👺 **Chef Red Devil** brings you spice world 🌶
 
-## Contributors 
+**[Live Preview](https://yana-an-dev.github.io/chef-red-devil/)**
+
+## Contributors
+
 **Scrimba Red Team:**
+
 - [Ash](https://github.com/ash9940)
 - [Endzo Useri](https://github.com/Endzo-Useri)
 - [Greg Pendleton](https://github.com/gpend)
@@ -13,9 +17,9 @@
 - [Vlad Silagy](https://github.com/vladsilagy)
 - [Yana An](https://github.com/yana-an-dev)
 
+## Challenge Brief
 
-## Challenge Brief 
-> A local chef has asked us to create for them a personal website that showcases their craft, energy and passion for food! 
+> A local chef has asked us to create for them a personal website that showcases their craft, energy and passion for food!
 > They are a private chef, so they are catering (pun intended 😉) to people who will pay them $$$ to come into their home and cook them a 5-star meal.
 > This particular chef likes to incorporate music into client experience, so the chef will play their personal favourite playlist while cooking.
 
@@ -28,13 +32,16 @@
 ## Requirements
 
 ### General requirments
+
 1. The site must be at least one page, but no more than 3 pages in total
-2. Where possible, all code taken from the internet must be *open-source* and a link to the original code is provided.
+2. Where possible, all code taken from the internet must be _open-source_ and a link to the original code is provided.
 3. The site will be primarily judged on the browser of the team's choosing, though extra points will be awarded to the site with the most cross-browser support. 🤷‍♂️
 4. The site must be mobile responsive. Tablet responsiveness is not required.
 
 ### Layout requirments
+
 The site must include the following sections, though the order is up to your team:
+
 1. Website navigation (if more than 1 page)
 2. A clear introduction to the chef, including their name and a brief bio.
 3. An explanation of the chef's style & cuisine, including the chef's prior experience or clientele and any specialty dishes they wish to highlight
@@ -45,7 +52,8 @@ The site must include the following sections, though the order is up to your tea
 8. A Spotify or Apple Music playlist is included and can be played via the browser, showcasing the chef's favourite playlist. If no one on your team has or is interested in implementing a playlist from these two services, feel free to decide as a team to implement some equivalent alternative.
 9. A page footer with relevant links and info
 
-## Links 
+## Links
+
 - [Notion Project page for team project details](https://sore-cup-eae.notion.site/A-Chef-s-Personal-Website-c22cccecdd734af7bee576c8bdfe2c24)
 - [Figma board for design idea and brainstorming](https://www.figma.com/file/SbCMa6CsrHBDQAt3ej4xLg/Challenge-1?node-id=0%3A1)
 - [Trello board](https://trello.com/b/4tq7614W/red-team)
